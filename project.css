@@ -1,0 +1,143 @@
+body {
+    background-image: URL("./images/tile.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+#title {
+    text-align: center;
+
+}
+
+.fade-in {
+    animation: fadein ease 2s;
+    -webkit-animation: fadein ease 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.Icone {
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 20px;
+    /* justify-content: right; */
+    /* padding-top: 10px; */
+    /* opacity: 0; */
+}
+
+
+
+.fi-xwluxl-times-wide {
+    color: black;
+    font-size: 25px;
+    text-align: right;
+    /* margin-right: 30px; */
+    /* justify-content: right; */
+    opacity: 0;
+
+}
+
+
+#mybutton {
+    width: 100%;
+    text-align: right;
+    height: 25px;
+}
+
+i#mybutton.fi-xwluxl-times-wide {
+    width: 80%;
+}
+
+.mainTextArea {
+    background-image: URL("./images/formbg.jpg");
+    padding: 13px 80px;
+    padding-right: 100px;
+    margin-right: 100px;
+    line-height: 0.8;
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+}
+
+.postIt {
+    background-image: URL("./images/notebg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    width: 170px !important;
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+.postIt:hover .fi-xwluxl-times-wide {
+    opacity: 1;
+    text-align: right;
+
+}
+
+.postItText {
+    width: 87%;
+    /* width: 150px; */
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 5px 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 1;
+    font-size: 30px;
+    color: black;
+    font-family: 'Caveat', cursive;
+    scrollbar-face-color: chocolate;
+    scrollbar-arrow-color: gold;
+    scrollbar-track-color: peru;
+    scrollbar-highlight-color: gold;
+    scrollbar-3dlight-color: goldenrod;
+    scrollbar-darkshadow-color: white;
+    scrollbar-track-color:darkorange;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.littleRow {
+    height: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.littleRow:hover .Icone {
+    color: black;
+    visibility: visible;
+}
+
+.noteDate {
+    color: black;
+    padding-left: 10px;
+}
+
+.noteTime {
+    color: black;
+}
